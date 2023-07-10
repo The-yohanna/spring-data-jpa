@@ -52,7 +52,7 @@ class ProductRepositoryTest {
         Product product = new Product();
         product.setName("spanner");
         product.setDescription("Tool for opening and tightening bolts and nuts");
-        product.setSku("FT011");
+        product.setSku("FT001");
         product.setPrice(new BigDecimal(150));
         product.setImageUrl("spanner.png");
         product.setActive(true);
@@ -60,7 +60,7 @@ class ProductRepositoryTest {
         Product product2 = new Product();
         product2.setName("screw driver");
         product2.setDescription("Tool for opening and fixing screws");
-        product2.setSku("FT012");
+        product2.setSku("FT002");
         product2.setPrice(new BigDecimal(450));
         product2.setImageUrl("shovel.png");
         product2.setActive(true);
@@ -68,7 +68,7 @@ class ProductRepositoryTest {
         Product product3 = new Product();
         product3.setName("hammer");
         product3.setDescription("Tool for driving nails in and out");
-        product3.setSku("FT013");
+        product3.setSku("FT003");
         product3.setPrice(new BigDecimal(850));
         product3.setImageUrl("hammer.png");
         product3.setActive(true);
@@ -76,7 +76,7 @@ class ProductRepositoryTest {
         Product product4 = new Product();
         product4.setName("saw");
         product4.setDescription("Tool for sawing wood");
-        product4.setSku("FT014");
+        product4.setSku("FT004");
         product4.setPrice(new BigDecimal(1050));
         product4.setImageUrl("saw.png");
         product4.setActive(true);
@@ -84,7 +84,7 @@ class ProductRepositoryTest {
         Product product5 = new Product();
         product5.setName("sickle");
         product5.setDescription("Tool for trimming hedges");
-        product5.setSku("FT015");
+        product5.setSku("FT005");
         product5.setPrice(new BigDecimal(950));
         product5.setImageUrl("sickle.png");
         product5.setActive(true);
